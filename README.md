@@ -1,5 +1,5 @@
 # Pulsar Classifier
- A classifier using logistic regression and other machine learning models to classify potential pulsars.
+ A classifier using logistic regression and other machine learning models to detect potential pulsars.
  
  The original dataset (https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star) contains a sample of potential pulsars that, in this project, was used to classify pulsars (determine if they were indeed pulsars according to certain features).
  
