@@ -1,7 +1,9 @@
 # Pulsar Classifier
  A classifier using logistic regression and other machine learning models to detect potential pulsars.
  
- The original dataset (https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star) contains a sample of potential pulsars that, in this project, was used to classify pulsars (determine if they were indeed pulsars according to certain features).
+ The original dataset (https://www.kaggle.com/pavanraj159/predicting-a-pulsar-star) contains a sample of potential pulsars that, in this project, were used to classify pulsars (determine if they were indeed pulsars according to certain features).
+ 
+ Included in the Jupyter Notebook code are visualizations that show the distributions of certain features, as well as how well each given features correlates to its classification outcome. Logistic Regression and KNN were used for predictions. A few different methods were used to determine the accuracy of the classifications. Potential updates to the project could include adding SVM predictions and adding more visuals to compare the outcomes for the different algorithms.
  
  Here is some basic information on the topic from Dr Robert Lyon, who led the effort in creating this dataset:
  
@@ -18,5 +20,3 @@ Machine learning tools are now being used to automatically label pulsar candidat
 which treat the candidate data sets as binary classification problems. Here the legitimate pulsar examples are a minority positive class, and spurious examples the majority negative class.
 
 The data set shared here contains 16,259 spurious examples caused by RFI/noise, and 1,639 real pulsar examples. These examples have all been checked by human annotators."
-
-Included in the Jupyter Notebook code are visualizations that show the distributions of certain features, as well as how well each given features correlates to its classification outcome. Logistic Regression and KNN were used for predictions. A few different methods were used to determine the accuracy of the classifications. Potential updates to the project could include adding SVM predictions and adding more visuals to compare the outcomes for the different algorithms.
